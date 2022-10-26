@@ -1,0 +1,73 @@
+.chat {
+
+    width:30%;
+    background-color: #E0E0E0;
+    height: 54vh;
+    border-radius: 10px;
+    border-color: #C0C0C0;
+    padding: 5px;
+    margin: 5px;
+
+    display: flex; 
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    textarea {
+        min-width: 95%; 
+        min-height: 84%;
+        max-width: 95%; 
+        max-height: 84%; 
+        border-radius: 10px; 
+        margin:5px; 
+        padding: 10px;
+    }
+
+    input {
+        width: 95%; 
+        height: 12%; 
+        border-radius: 10px; 
+        margin:5px; 
+        padding: 10px;
+    }
+
+}
+
+.user {
+    width:15%;
+    background-color: #E0E0E0;
+    height: 54vh;
+    border-radius: 10px;
+    border-color: #C0C0C0;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+.follower {
+
+    width:45%;
+    background-color: #E0E0E0;
+    height: 10vh;
+    border-radius: 10px;
+    border-color: #C0C0C0;
+    padding: 5px;
+    margin: 5px;
+}
+
+.container {
+
+    margin-top: 60px;
+
+    width:100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    
+
+}

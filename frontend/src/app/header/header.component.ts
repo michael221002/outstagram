@@ -8,6 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
   pages = [
+    'home',
     'page1',
     'page2',
     'page3',
