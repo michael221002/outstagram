@@ -19,4 +19,10 @@ export class Page1Component implements OnInit {
   ngOnInit(): void {
   }
 
+  sendMessage() {
+
+    //send Request
+
+  }
+
 }

@@ -6,14 +6,18 @@
   
         <div class="chat">
 
-            <textarea readonly="readonly"></textarea>
-            <input type="text">
+                <textarea id="console" readonly="readonly"></textarea>
+                
+                <form style="display: flex;">
+                    <input type="text">
+                    <button (click)="sendMessage()">send</button>
+                </form>
 
         </div>
 
-        <div class="user">
+        <div class="console">
 
-        
+            Konsole: 
 
         </div>
 
