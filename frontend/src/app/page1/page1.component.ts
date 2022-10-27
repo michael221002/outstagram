@@ -1,5 +1,5 @@
-import { ResourceLoader } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
+import { OutputService } from '../output.service';
 
 @Component({
   selector: 'app-page1',
@@ -16,17 +16,17 @@ export class Page1Component implements OnInit {
     'page4'
   ];
 
-  output = ['Console'];
+  output = [
+    'line1\n',
+    'line2\n',
+  ]
 
-  constructor() { }
+  constructor(public os: OutputService) { }
 
   ngOnInit(): void {
   }
 
-  sendMessage() {
-
-    this.output.push('test');
-
+  addOutputConsole(){
+    this.output.push('line3');
   }
-
 }

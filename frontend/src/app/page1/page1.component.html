@@ -10,14 +10,14 @@
                 
                 <form style="display: flex;">
                     <input type="text">
-                    <button (click)="sendMessage()">send</button>
+                    <button (click)="addOutputConsole()">send</button>
                 </form>
 
         </div>
 
         <div class="console">
 
-            <textarea [attr.aria-label]="output">{{ output }}</textarea>
+            <textarea>{{ output }}</textarea>
 
         </div>
 
