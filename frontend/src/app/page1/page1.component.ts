@@ -1,3 +1,4 @@
+import { ResourceLoader } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -5,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './page1.component.html',
   styleUrls: ['./page1.component.scss']
 })
+
 export class Page1Component implements OnInit {
 
   pages = [
@@ -14,6 +16,8 @@ export class Page1Component implements OnInit {
     'page4'
   ];
 
+  output = ['Console'];
+
   constructor() { }
 
   ngOnInit(): void {
@@ -21,7 +25,7 @@ export class Page1Component implements OnInit {
 
   sendMessage() {
 
-    //send Request
+    this.output.push('test');
 
   }
 

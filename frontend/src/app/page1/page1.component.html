@@ -6,7 +6,7 @@
   
         <div class="chat">
 
-                <textarea id="console" readonly="readonly"></textarea>
+                <textarea readonly="readonly"></textarea>
                 
                 <form style="display: flex;">
                     <input type="text">
@@ -17,7 +17,7 @@
 
         <div class="console">
 
-            Konsole: 
+            <textarea [attr.aria-label]="output">{{ output }}</textarea>
 
         </div>
 
