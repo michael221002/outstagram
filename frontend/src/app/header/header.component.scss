@@ -6,7 +6,11 @@
 
     display: flex;
 
+    box-shadow:
+    #202020 0px 60px 123px -25px,
+    #202020 0px 35px 75px -35px;
 
+    z-index: 3;
 }
 
 .logo {
