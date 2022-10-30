@@ -1,4 +1,6 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit} from '@angular/core';
+import { DOCUMENT } from '@angular/common';
+import { createInjectableType } from '@angular/compiler';
 
 @Component({
   selector: 'app-header',
@@ -9,15 +11,25 @@ export class HeaderComponent implements OnInit {
 
   pages = [
     'home',
-    'page1',
-    'page2',
-    'page3',
-    'page4'
+    'chat',
+    'test',
+    'about',
+    'contact'
   ]
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  /* Open */
+  openNav() {
+    document.getElementById("myNav")
+  }
+
+  /* Close */
+  closeNav() {
+    document.getElementById("myNav")
   }
 
 }

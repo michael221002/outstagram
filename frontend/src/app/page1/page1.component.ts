@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { OutputService } from '../output.service';
 
 @Component({
@@ -27,6 +27,10 @@ export class Page1Component implements OnInit {
   }
 
   addOutputConsole(){
-    this.output.push('line3');
+    document.getElementById("terminal")
   }
+
+  
+
 }
+
