@@ -9,6 +9,8 @@ import { OutputService } from '../output.service';
 
 export class Page1Component implements OnInit {
 
+  text: string = "Hello world!";
+
   pages = [
     'page1', 
     'page2', 
@@ -27,7 +29,8 @@ export class Page1Component implements OnInit {
   }
 
   addOutputConsole(){
-    document.getElementById("terminal")
+    document.getElementById("terminal");
+    this.text += "\nHello World!";
   }
 
   

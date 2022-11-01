@@ -1,3 +1,4 @@
+
 .chat {
 
     width:30%;
@@ -109,4 +110,12 @@
 
     flex-direction: column;
 
+}
+
+textarea:focus{
+    outline:none;
+}
+
+input:focus {
+    outline:none;
 }

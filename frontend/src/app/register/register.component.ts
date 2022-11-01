@@ -1,4 +1,6 @@
+import { outputAst } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
+import { OutputService } from '../output.service';
 
 @Component({
   selector: 'app-register',
@@ -11,5 +13,4 @@ export class RegisterComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }
