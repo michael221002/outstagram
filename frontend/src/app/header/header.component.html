@@ -1,5 +1,5 @@
 <div class="head_section">
-    <img routerLink="/page0" class="logo" style="margin-left: 2%;"src="assets/Logo.PNG/">
+    <img id="logo" routerLink="/page0" class="logo" style="margin-left: 2%;"src="assets/Logo.PNG/">
     <div class="menubar" style="margin-right: 5%; justify-content: flex-end;">
         <a class="hover-underline-animation" *ngFor="let i of [0,1,2,3,4]" routerLink="/page{{ i }}">{{ pages[i] }}</a>
     </div>

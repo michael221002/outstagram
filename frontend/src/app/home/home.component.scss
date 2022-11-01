@@ -19,6 +19,7 @@
     box-shadow:
     #202020 0px 60px 123px -25px,
     #202020 0px 35px 75px -35px;
+    
 
     display: flex; 
     justify-content: center;
@@ -26,7 +27,7 @@
     flex-direction: row;
 
     h1 {
-      margin: 0;
+    margin: 0;
     padding-bottom: 6rem;
     grid-column: 1;
     grid-row: 1;
@@ -54,78 +55,8 @@
     
 }
 
-
-//.right-box {
-//  box-shadow:
-//  #202020 0px 60px 123px -25px,
-//  #202020 0px 35px 75px -35px;
-//    transform:
-//      perspective(800px)
-//      rotateY(25deg) scale(0.9)
-//      rotateX(10deg);
-//    filter: blur(0px);
-//    opacity: 0.5;
-//    transition: 0.6s ease all;
-//
-//    background-color: grey;
-//    opacity: 80%;
-//
-//    width: 30%;
-//    height: 20vh;
-//  
-//    &:hover {
-//      transform:
-//        perspective(800px)
-//        rotateY(-15deg)
-//        translateY(-50px)
-//        rotateX(10deg)
-//        scale(1);
-//      filter: blur(0);
-//      opacity: 1;
-//    }
-//
-//    display:flex;
-//    justify-content: center;
-//    align-items: center;
-//}
-//
-//  .left-box {
-//    box-shadow:
-//    #202020 0px 60px 123px -25px,
-//    #202020 0px 35px 75px -35px;
-//    transform:
-//      perspective(800px)
-//      rotateY(-25deg) scale(0.9)
-//      rotateX(+10deg);
-//    filter: blur(0px);
-//    opacity: 0.5;
-//    transition: 0.6s ease all;
-//
-//    background-color: grey;
-//    opacity: 80%;
-//
-//    width: 30%;
-//    height: 20vh;
-//  
-//    &:hover {
-//      transform:
-//        perspective(800px)
-//        rotateY(+15deg)
-//        translateY(-50px)
-//        rotateX(10deg)
-//        scale(1);
-//      filter: blur(0);
-//      opacity: 1;
-//    }
-//    
-//    display:flex;
-//    justify-content: center;
-//    align-items: center;
-//}
-
-
 .content {
-  background: grey;
+  background: #606060;
   margin: 5px;
   width: 25%;
   display: flex;
@@ -135,6 +66,15 @@
   flex-direction: column;
   border-radius: 10px;
   opacity: 10%;
+
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+
+
+  box-shadow: 
+  #202020 0px 60px 123px -25px,
+  #202020 0px 35px 75px -35px;
 }
 
 .content_child {
@@ -146,4 +86,27 @@
   height: 70%;
   flex-direction: column;
   border-radius: 10px;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+button {
+  border-radius: 20px;
+  width: 15%;
+  height: 8vh;
+
+  background-color: #808080;
+}
+
+button:hover {
+  background-color: #2d9da9;
+}
+
+button:active {
+  width: 14%;
+  height: 7.5vh;
 }

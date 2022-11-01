@@ -12,7 +12,7 @@ export class HeaderComponent implements OnInit {
   pages = [
     'home',
     'chat',
-    'test',
+    'register',
     'about',
     'contact'
   ]

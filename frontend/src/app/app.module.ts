@@ -10,6 +10,8 @@ import { Page2Component } from './page2/page2.component';
 import { Page3Component } from './page3/page3.component';
 import { Page4Component } from './page4/page4.component';
 import { HomeComponent } from './home/home.component';
+import { RegisterComponent } from './register/register.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { HomeComponent } from './home/home.component';
     Page2Component,
     Page3Component,
     Page4Component,
-    HomeComponent
+    HomeComponent,
+    RegisterComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
