@@ -30,7 +30,7 @@ export class Page1Component implements OnInit {
 
   addOutputConsole(){
     document.getElementById("terminal");
-    this.text += "\nHello World!";
+    this.text += "\nHello World! ";
   }
 
   
