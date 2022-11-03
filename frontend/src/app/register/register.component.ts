@@ -1,5 +1,6 @@
 import { outputAst } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
+import { BindService } from '../bind.service';
 import { OutputService } from '../output.service';
 
 @Component({
@@ -9,8 +10,9 @@ import { OutputService } from '../output.service';
 })
 export class RegisterComponent implements OnInit {
 
-  constructor() { }
+  constructor(public ns: BindService) { }
 
   ngOnInit(): void {
   }
+  
 }

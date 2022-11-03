@@ -53,6 +53,14 @@
         border-radius: 20px;
     }
 
+    button:hover {
+        background-color: grey;
+    }
+
+    button:active {
+        background-color: #202020;
+    }
+
     box-shadow:
     black 0px 60px 123px -25px,
     black 0px 35px 75px -35px;

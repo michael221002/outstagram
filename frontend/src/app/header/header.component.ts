@@ -14,7 +14,8 @@ export class HeaderComponent implements OnInit {
     'chat',
     'register',
     'about',
-    'contact'
+    'contact',
+    'settings'
   ]
 
   constructor() { }

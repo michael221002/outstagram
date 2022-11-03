@@ -9,6 +9,17 @@
     align-items: center;
     height: 50vh;
 
+    p {
+      font-size: calc(0.8vw + 0.7vh);
+      text-align: justify;
+      color: #2d9da9;
+    }
+
+    img  {
+      width:100%;
+      height: auto;
+      border-radius: 10px;
+    }
     
 }
 
