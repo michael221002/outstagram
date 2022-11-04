@@ -119,10 +119,10 @@
 
 .container {
 
-    margin-top: 60px;
+    margin-top: 0px;
 
     width:100%;
-    height: 100%;
+    height: 85%;
 
     display: flex;
     justify-content: center;
@@ -139,3 +139,24 @@ textarea:focus{
 input:focus {
     outline:none;
 }
+
+@media only screen and (max-width: 768px) {
+    #title {
+      font-size: calc(2vh + 1vw);
+    }
+  
+    .container {
+        flex-direction: column !important;
+
+        .chat {
+            width: 80%;
+            height: 100%;
+        }
+
+    }
+
+    .console {
+        display: none;
+    }
+  
+  }

@@ -121,3 +121,23 @@ button:active {
   width: 14%;
   height: 7.5vh;
 }
+
+@media only screen and (max-width: 768px) {
+  #title {
+    font-size: calc(2vh + 1vw);
+  }
+
+  .main-content {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .content_child {
+    width: 100%;
+  }
+
+}
